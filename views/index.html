@@ -5,7 +5,12 @@
     <title>Assurance</title>
   </head>
   <body>
-    {{ 2+2 }}
+    <ul class="clients">
+      <li ng-repeat="client in clients" class="thumbnail">
+        <a href="#!/client/{{client.name}}">{{client.name}}</a>
+        <p>{{client.cars}}</p>
+      </li>
+    </ul>
   </body>
   <script src="script/angular.min.js"></script>
   <script src="script/app.js"></script>
