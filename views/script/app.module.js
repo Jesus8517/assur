@@ -1,0 +1,3 @@
+angular.module('clientCatApp', [
+  'myApp'
+]);

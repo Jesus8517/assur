@@ -43,6 +43,4 @@ myApp.controller('assurCtrl', ['$scope', function($scope) {
       }
     }
   ]
-
-
 }])
